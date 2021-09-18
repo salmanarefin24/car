@@ -1,0 +1,754 @@
+/*======================
+Font Family Lato+bebas
+======================*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+/*=========
+Gloval CSS
+===========*/
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+button{
+	font-family: 'Bebas Neue', cursive;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+/*============
+Header Section
+==============*/
+header{
+	background: url(../img/banner.png) no-repeat center top;
+	background-size: cover;
+	padding: 10px 0 0;
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #101010;
+    background: #ffc61a;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0 10px;
+    transition: 0.4s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus{
+    background: #ffc61a;
+    border-radius: 20px;
+    color: #101010;
+}
+/*Header Item*/
+.header-item{
+	padding:50px 0;
+	text-align: center;
+}
+.header-item h2{
+    color: #ffc61a;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;	
+}
+.header-item h1{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.header-item p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    padding-left: 13px;
+}
+.header-item img{
+	margin-top: 40px;
+}
+
+
+/*=============
+Booking Section
+==============*/
+.booking-section{
+	padding:75px 0;
+	background: #ffc61a;
+	margin-top: -180px;
+}
+.padding-top{
+	padding: 100px 0;
+}
+.booking-section h4{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+.booking-section h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #101010;
+    text-transform: uppercase;
+}
+.booking-section p{
+    font-size: 18px;
+    color: #101010;
+    padding: 20px 0;
+    line-height: 23px;
+}
+.btn-book{
+	background: #101010;
+    color: #fff;
+    border: 1px solid #101010;
+    padding: 6px 16px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.btn-book:hover{
+	background: transparent;
+    color: #101010;
+    border: 1px solid #101010;
+
+}
+/*Booking Form*/
+.book-form{
+    background: #fff;
+    text-align: center;
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+	padding:0;
+}
+/*form Header*/
+.form-header{
+	background: #101010;
+	width: 100%;
+	padding: 10px;
+}
+.form-header h4{
+	color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.form-header h4 span{
+	color: #ffc61a;
+}
+/*form Body*/
+.form-body{
+	padding: 10px;
+}
+.mb-3{
+	padding-top: 10px;
+}
+.control-item{
+	border: none;
+    border-bottom: 2px solid #e4e4e4;
+    color: #101010;
+}
+.control-item:focus{
+    box-shadow: none;
+}
+/*form Footer*/
+.form-footer{
+	padding: 0 10px;
+}
+.btn-book-form{
+	background: #101010;
+	width: 100%;
+    color: #fff;
+    border: 1px solid #101010;
+    padding: 6px 16px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.btn-book-form:hover{
+    background: transparent;
+    border: 1px solid #101010;
+    color: #101010;	
+}
+
+
+/*=============
+Tariffs Section
+==============*/
+.tariffs-section{
+	padding: 75px 0 0;
+}
+.tariffs-section h2{
+    color: #ffc61a;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase; 
+}
+.tariffs-section h2 span{
+    display: block;
+    color: #101010;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 20px;
+}
+/*Tariff Display*/
+.tariff-display{
+	padding: 125px 0;
+}
+.tariff-area{
+	text-align: center;
+	background: #f5f4f2;
+	border-radius: 2px;
+	transition: 0.4s ease-in-out
+}
+.tariff-img{
+	margin-top: -85px;
+}
+.tariff-area h3{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 23px;
+    color: #101010;
+    padding: 15px 0 0;	
+}
+.tariff-area p{
+    font-size: 18px;
+    color: #101010;
+    padding: 10px;	
+}
+.tariff-area h2{
+    color: #ffc61a;
+    font-size: 33px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0 0 20px;
+    transition: 0.4s ease-in-out;
+}
+.btn-tariff{
+    background: #ffc61a;
+    color: #101010;
+    border: 1px solid #ffc61a;
+    padding: 6px 22px;
+    margin: 0 0 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.tariff-area{
+	position: relative;
+}
+.triangle {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid #101010;
+    border-left: 60px solid transparent;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+.icon{
+    content: "";
+    position: absolute;
+    right: 9px;
+    bottom: -54px;
+    color: #ffc61a;
+}
+.icon .fa{
+	font-size: 20px;
+}
+/*Tariff Hover*/
+.tariff-area:hover{
+	background:  #ffc61a;
+
+}
+.tariff-area:hover h2{
+	color: #101010;
+}
+.tariff-area:hover .btn-tariff{
+	background: #101010;
+	color: #fff;
+}
+.tariff-area:hover .triangle {
+	opacity: 1;
+}
+
+
+/*=============
+ Service Section
+==============*/
+.service-section{
+	background: url(../img/our-service-bg.png) no-repeat center top;
+	background-size: cover;
+	padding: 75px 0;
+}
+.service-section h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffc61a;	
+}
+.service-section h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 20px;
+    color: #fff;	
+}
+/*Service Area*/
+.service-area{
+	padding: 60px 0;
+}
+.service-item {
+	padding: 20px 0;
+}
+.service-item .fa{
+	font-size: 27px;
+    width: 65px;
+    height: 65px;
+    line-height: 62px;
+    text-align: center;
+    background: #ffc61a;
+    color: #101010;
+    border-radius: 50%;
+    border:1px solid #ffc61a;
+    transition: 0.4s ease-in-out;	
+}
+.service-item:hover .fa{
+	background: transparent;
+	color: #ffc61a; 
+}
+.service-item h4{
+	color: #ffc61a;
+	text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+.service-item p{
+    color: #fff;
+    font-size: 16px;
+    padding-right: 40px;
+}
+.btn-service{
+    background: #ffc61a;
+    color: #101010;
+    border: 1px solid #ffc61a;
+    padding: 6px 22px;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;	
+}
+.btn-service:hover{
+	background: transparent;
+    color: #fff;
+	border: 1px solid #ffc61a;
+}
+
+
+/*=============
+Download Section
+==============*/
+.download-section{
+	padding: 75px 0 0;
+}
+.download-section h3{
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffc61a;	
+}
+.download-section h2{
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 20px;
+    color: #101010;
+}
+.download-area{
+	padding: 50px 0 0;
+}
+.download-area h5{
+	padding-top: 25px;
+    font-weight: 700;
+    font-size: 23px;
+    padding-right: 40px;
+    color: #101010;	
+}
+.download-area p{
+    font-size: 17px;
+    padding: 20px 110px 20px 0;
+    color: #101010;
+}
+.download-area ul{
+	padding: 15px 0;
+}
+.download-area ul li{
+	display: inline;
+	padding-right: 15px;
+}
+.download-area ul li a img{
+	width:175px;
+	height: auto;
+}
+.mobile{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*==================
+Testimonials Section
+===================*/
+.testimonial-section{
+	background: url(../img/client-section-bg.png) no-repeat center top;
+	background-size: cover;
+	padding: 75px 0;
+}
+.testimonial-section h3{
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 600;
+    color: #ffc61a;
+}
+.testimonial-section h2{
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 20px;
+    color: #fff;
+}
+.slider-area{
+	padding: 70px 0 0;
+}
+.slider-box{
+	background: #000;
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+.slider-box p{
+	color: #fff;
+	font-size: 18px;
+	padding-right: 10px;
+}
+.slider-box h6{
+	text-transform: uppercase;
+    color: #ffc61a;
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 12px;	
+}
+.slider-box h6 span{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/*=============
+Contact Section
+==============*/
+.contact-section{
+	background: #ffc61a;
+	padding: 75px 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #101010;
+}
+.contact-section h2{
+	font-size: 27px;
+    font-weight: 800;
+}
+.contact-section h1{
+	font-size: 48px;
+    font-weight: 900;
+}
+
+
+/*=============
+ Footer Section
+==============*/
+footer{
+	background: url(../img/footer.bg.png) no-repeat center top ;
+	background-size: cover;
+	padding: 75px 0 0;
+}
+footer h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 600;
+}
+.footer-border{
+    width: 90%;
+    height: 5px;
+    background: #ffc61a;
+    margin-bottom: 25px;
+}
+footer p{
+    color: #fff;
+    padding: 0 35px 10px 0;
+}
+.footer-about ul{
+	padding: 10px 0;
+}
+.footer-about ul li{
+	display: inline;
+	padding-right:25px;
+}
+.footer-about ul li a .fa{
+    color: #ffc61a;
+    font-size: 20px;
+}
+.footer-about ul li a .fa:hover{
+	color: #fff;
+}
+/*Footer Download*/
+.footer-download ul{
+	padding: 5px 0;
+}
+.footer-download ul li{
+	display: inline;
+	padding-right:25px;
+}
+.footer-download ul li a{
+	color: #ffc61a;
+}
+.footer-download ul li a .fa{
+	font-size: 25px;
+	color: #fff;
+}
+.footer-download ul li a .fa:hover{
+	color: #ffc61a; 
+}
+.fa-apple{
+	padding: 0 32px;
+}
+/*footer contact*/
+.footer-contact-item{
+	padding-bottom: 15px;
+}
+.footer-contact-item a{
+	color: #fff;
+
+}
+.footer-contact-item a .fa{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    display: block;
+}
+.footer-contact-item:hover a{
+	color: #ffc61a;
+}
+.last-p{
+	text-align: center;
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+
+/*======================
+  Media Query For Notebook
+  ======================*/
+@media (min-width:768px) and (max-width: 992px){
+    .navbar-light .navbar-toggler { border-color: #ffc61a;}
+    .fa-bars{color: #fff;}
+    .navbar-light .navbar-nav .nav-link { text-align: center; margin: 10px 220px 0;}
+    .booking-section h4 { font-size: 25px;}
+    .booking-section h2 { font-size: 31px;}
+    .booking-section p { font-size: 16px; padding: 14px 0;}
+    .booking-section {  padding: 75px 0 40px;}
+    .padding-top { padding: 70px 0 0;}
+    .tariffs-section { padding: 50px 0 0;}
+    .tariff-display { padding: 100px 0 50px;}
+    .tariff-img { margin-top: -55px;}
+    .tariff-area h3 { font-size: 21px;}
+    .tariff-area p { font-size: 16px; line-height: 20px;}
+    .tariff-area h2 { font-size: 30px; padding: 0 0 15px;}
+    .triangle { opacity: 1;}
+    .service-section { padding: 50px 0; }
+    .service-area { padding: 35px 0;}
+    .service-item h4 { margin-left: 15px;}
+    .service-item p { padding-right: 0;margin-left: 15px;}
+    .download-section {padding: 50px 0 0;}
+    .download-area h5 { padding-top: 0;font-size: 22px; padding-right: 0;}
+    .download-area p { padding: 12px 0; }
+    .download-area ul li a img {width: 120px;}
+    .testimonial-section { padding: 50px 0; }
+    .slider-box p {font-size: 17px; padding-right: 0;}
+    .owl-carousel .owl-item img { width: 50px;}
+    .slider-box h6 {margin: 7px;}
+    .contact-section h2 { font-size: 25px; }
+    .contact-section { padding: 50px 0;}
+    .contact-section h1 { font-size: 45px;}
+    footer {  padding: 50px 0 0; }
+    .footer-border { margin-bottom: 15px; }
+    footer p { padding: 0; }
+}
+
+
+/*======================
+  Media Query For teblet
+  ======================*/
+@media (min-width:577px) and (max-width: 768px){
+    .navbar-light .navbar-toggler { border-color: #ffc61a;}
+    .fa-bars{color: #fff;}
+    .navbar-light .navbar-nav .nav-link { text-align: center; margin: 10px 245px 0;}
+    .header-item { padding: 40px 0;}
+    .header-item h2 { font-size: 23px;}
+    .header-item h1 { font-size: 40px; line-height: 28px;}
+    .header-item p { font-size: 17px; letter-spacing: 8px; padding-left: 10px;}
+    .header-item img { margin-top: 15px;}
+    .booking-section { padding: 85px 0 40px;}
+    .booking-section { margin-top: -145px;}
+    .padding-top { padding:20px 0;}
+    .booking-section h4 { font-size: 23px;  text-align: center;}
+    .booking-section h2 { font-size: 28px; text-align: center;}
+    .booking-section p { font-size: 17px;text-align: center; padding: 10px 0;}
+    .btn-book { display: block; margin: 0 auto 35px;}
+    .book-form { width: 90%;}
+    .btn-book-form { margin-bottom: 10px;}
+    .tariffs-section {padding: 40px 0 0;}
+    .tariffs-section h2 { font-size: 23px;}
+    .tariffs-section h2 span {font-size: 30px;}
+    .tariff-display {  padding: 115px 0 0;}
+    .tariff-area h3 { font-size: 23px; padding: 5px 0 0;}
+    .tariff-area p { font-size: 17px; padding:10px; line-height: 21px;}
+    .tariff-area { margin-bottom: 110px;}
+    .btn-tariff { margin: 0 0 30px;}
+    .tariff-area h2 {font-size: 28px;}
+    .triangle { opacity: 1;}
+    .service-section { padding: 40px 0; text-align: center;}
+    .service-section h3, .download-section h3 { font-size: 23px;}
+    .service-section h2 { font-size: 28px;line-height: 10px;}
+    .service-area { padding: 23px 0;}
+    .service-item .fa { font-size: 27px; width: 60px; height: 60px; line-height: 59px;}
+    .service-item h4 { padding: 13px 0 0;}
+    .service-item p {padding-right: 0; }
+    .service-item { padding: 10px 0;}
+    .download-section { padding: 40px 0 0; text-align: center;}
+    .download-area {padding: 20px 0 0;}
+    .download-section h2{font-size: 28px;}
+    .download-area h5 { padding-top: 0; font-size: 22px; padding-right: 0;}
+    .download-area p { font-size: 17px; padding: 5px 10px;}
+    .download-area ul li a img { width: 145px;}
+    .mobile { margin-top: 30px;}
+    .testimonial-section { padding: 40px 0; text-align: center;}
+    .testimonial-section h2{font-size: 28px;}
+    .slider-box p { font-size: 16px; padding-right: 0;}
+    .owl-carousel .owl-item img { width: 70px; margin: 0 auto;}
+    .slider-box h6 {font-size: 18px; margin-top: 5px;}
+    .slider-box h6 span { font-size: 13px;}
+    .slider-area { padding: 30px 0 0;}
+    .contact-section { padding: 40px 0;}
+    .contact-section h2 { font-size: 23px;}
+    .contact-section h1 { font-size: 40px; }
+    footer { padding: 40px 0 0; text-align: center; }
+    footer h4 { font-size: 23px;}
+    .footer-border { margin-left: 5%; margin-bottom: 20px; }
+    footer p { padding: 0 16px;}
+    .footer-about ul li { padding-right: 0; padding: 10px;}
+    .footer-download{margin: 30px 0;}
+    .fa-apple {padding: 0;margin-left: 31px;}
+}
+
+
+
+/*======================
+  Media Query For Mobile
+  ======================*/
+@media (min-width:320px) and (max-width: 576px){
+
+    .navbar-light .navbar-toggler { border-color: #ffc61a;}
+    .fa-bars{color: #fff;}
+    .navbar-light .navbar-nav .nav-link { text-align: center; margin: 10px 10px 0;}
+    .header-item { padding: 40px 0;}
+    .header-item h2 { font-size: 20px;}
+    .header-item h1 { font-size: 35px; line-height: 28px;}
+    .header-item p { font-size: 16px; letter-spacing: 7px; padding-left: 4px;}
+    .header-item img { margin-top: 15px;}
+    .booking-section {    padding: 75px 0 40px;}
+    .booking-section { margin-top: -117px;}
+    .padding-top { padding:20px 0;}
+    .booking-section h4 { font-size: 20px;  text-align: center;}
+    .booking-section h2 { font-size: 27px; text-align: center;}
+    .booking-section p { font-size: 16px;text-align: center; padding: 10px 0;}
+    .btn-book { display: block; margin: 0 auto 35px;}
+    .book-form { width: 90%;}
+    .btn-book-form { margin-bottom: 10px;}
+    .tariffs-section {padding: 40px 0 0;}
+    .tariffs-section h2 { font-size: 20px;}
+    .tariffs-section h2 span {font-size: 25px;}
+    .tariff-display {  padding: 100px 0 0;}
+    .tariff-area h3 { font-size: 20px; padding: 5px 0 0;}
+    .tariff-area p { font-size: 16px; padding: 0; line-height: 21px;}
+    .tariff-area { margin-bottom: 110px;}
+    .btn-tariff { margin: 0 0 30px;}
+    .tariff-area h2 {font-size: 28px;}
+    .triangle { opacity: 1;}
+    .service-section { padding: 40px 0; text-align: center;}
+    .service-section h3, .download-section h3 { font-size: 20px;}
+    .service-section h2 { font-size: 25px;line-height: 10px;}
+    .service-area { padding: 23px 0;}
+    .service-item .fa { font-size: 25px; width: 55px; height: 55px; line-height: 55px;}
+    .service-item h4 { padding: 13px 0 0;}
+    .service-item p {padding-right: 0; }
+    .service-item { padding: 10px 0;}
+    .download-section { padding: 40px 0 0; text-align: center;}
+    .download-area {padding: 20px 0 0;}
+    .download-section h2{font-size: 25px;}
+    .download-area h5 { padding-top: 0; font-size: 20px; padding-right: 0;}
+    .download-area p { font-size: 16px; padding: 5px 0;}
+    .download-area ul li a img { width: 120px;}
+    .mobile { margin-top: 30px;}
+    .testimonial-section { padding: 40px 0; text-align: center;}
+    .slider-box p { font-size: 16px; padding-right: 0;}
+    .owl-carousel .owl-item img { width: 70px; margin: 0 auto;}
+    .slider-box h6 {font-size: 16px; margin-top: 5px;}
+    .slider-box h6 span { font-size: 11px;}
+    .slider-area { padding: 25px 0 0;}
+    .contact-section { padding: 40px 0;}
+    .contact-section h2 { font-size: 20px;}
+    .contact-section h1 { font-size: 35px; }
+    footer { padding: 40px 0 0; text-align: center; }
+    footer h4 { font-size: 20px;}
+    .footer-border { margin-left: 5%; margin-bottom: 20px; }
+    footer p { padding: 0;}
+    .footer-about ul li { padding-right: 0; padding: 10px;}
+    .footer-download{margin: 30px 0;}
+    .fa-apple {padding: 0;margin-left: 31px;}
+}
